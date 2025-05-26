@@ -1,13 +1,22 @@
-# React + Vite
+# React + Vite: Aplicación Simple de Clima
 
-Ejemplo simple de aplicación de clima, consumiendo la api gratuita obtenida de https://openweathermap.org 
-Para obtener una Api Key debes crearte una cuenta.
+Este proyecto es un ejemplo sencillo de una **aplicación de clima** desarrollada con **React** y **Vite**. Consume la API gratuita de [OpenWeatherMap](https://openweathermap.org). Para utilizar la API, necesitarás obtener una **API Key** registrándote en su sitio web.
 
-## Cómo probar
-####Descargá el proyecto
-####Instalá las dependencias con npm install
-####En la raiz del proyecto crea un archivo .env (para la variable de entorno de Vite) y colocá tu apiKey de la siguiente manera
-VITE_API_KEY= 'ejemplo de apiKey'
-####Por último corre desde la terminal el comando npm run dev y miralo en el navegador. 
-Espero les guste!
+---
+
+## ¿Cómo Probar el Proyecto?
+
+Sigue estos pasos para poner en marcha la aplicación:
+
+1.  **Descarga el proyecto:** Clona o descarga este repositorio en tu máquina local.
+2.  **Instala las dependencias:** Abre la terminal en la raíz del proyecto y ejecuta `npm install`.
+3.  **Configura tu API Key:**
+    * En la raíz del proyecto, crea un archivo llamado `.env`.
+    * Dentro de este archivo, añade tu API Key de la siguiente manera (reemplaza `'ejemplo de apiKey'` con tu clave real):
+        ```
+        VITE_API_KEY='ejemplo de apiKey'
+        ```
+4.  **Ejecuta la aplicación:** Desde la terminal, corre el comando `npm run dev` y abre la aplicación en tu navegador.
+
+---
 
